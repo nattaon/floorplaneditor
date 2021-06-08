@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "/home/nattaon/anaconda3/envs/pyqt5_tf/bin/python"
-    //"python.pythonPath": "/home/okuboali/anaconda3/envs/pyqt5_tf/bin/python"
+    //"python.pythonPath": "/home/nattaon/anaconda3/envs/pyqt5_tf/bin/python"
+    "python.pythonPath": "/home/okuboali/anaconda3/envs/pyqt5_tf/bin/python"
 }
