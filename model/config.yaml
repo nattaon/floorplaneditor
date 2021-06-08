@@ -1,0 +1,23 @@
+#backbone: resnet34
+list_epoch_number:
+- 1
+- 10
+- 100
+callback_count: 4
+input_channel: 3
+input_crop_size: 256
+model: unet_vgg16
+loss: sm_dice
+zero_weight: 0.995
+one_weight: 0.005
+optimizer: Adam
+test_path:
+- ../DatasetFloorplan/test/test_image20
+- ../DatasetFloorplan0/test/test_image57
+epochs: 1000
+batch_size: 8
+data_npz: img_label256_7948.npz
+#data_npz: img_label256_3159.npz
+validation_split: 0.1
+history_file_name: training_history
+history_plot_name: training_plot.png
